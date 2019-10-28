@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -21,18 +22,17 @@
 </head>
 
 <body class="app header-fixed sidebar-fixed aside-menu-fixed sidebar-lg-show">
-<div id="app">
-@include('layouts.header')
-<div class="app-body">
-@include('layouts.sidebar')
-<main class="main">
-<div class="container-fluid">
-<div class="animated fadeIn">
-@yield('content')
-</div>
-</div>
-</main>
-</div>
-</div>
+    <div id="app">
+        @include('layouts.header')
+        <div class="app-body">
+            @include('layouts.sidebar')
+            <main class="main">
+                <div class="container-fluid">
+                    <div class="animated fadeIn">
+                        @yield('content')
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
 </body>
-</html>

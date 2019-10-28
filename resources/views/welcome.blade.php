@@ -80,14 +80,14 @@
                 <h1 class="page-header mt-xs-4">
                     Tiendita De Figuras
                 </h1>
-                
+
                 <ol class="breadcrumb">
                     <li>
                         <a href="#">Home</a>
                     </li>
                     <li class="active">Current</li>
                 </ol>
-                
+
             </div>
             <aside role="complementary" class="page-sidebar break-xs">
 
@@ -101,15 +101,15 @@
             <div class="page-content pl-sm-4">
                 <h2 id="item1">Item 1</h2>
                 <p>
-                    
+
                 </p>
                 <h2 id="item2">Item 2</h2>
                 <p>
-                    
+
                 </p>
                 <h2 id="item3">Item 3</h2>
                 <p>
-                    
+
                 </p>
 
 
@@ -131,5 +131,3 @@
 
 
 </body></html>
-
-
